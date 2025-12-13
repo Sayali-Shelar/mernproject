@@ -1,7 +1,7 @@
 .MainNav{
     background-color:rgba(255, 255, 255, 0.334);
     box-shadow: 5px 5px 5px black;
-    height: 50px;
+    height: 70px;
     
     position: sticky;
     top: 2%;
@@ -11,8 +11,24 @@
     display: flex;
     position: relative;
     top: 25%;
-    justify-content: center;
+    justify-content: space-between;
     gap: 4%;
+}
+.Nav_left > img{
+    position: relative;
+    top: -25px;
+}
+.Nav_center{
+    display: flex;
+    
+    gap: 30px;
+}
+.Nav_right{
+    display: flex;
+    position: relative;
+    right: 20px;
+    gap: 30px;
+    
 }
 .btn{
     background-color: rgba(234, 223, 223, 0.352);
@@ -21,4 +37,8 @@
     text-decoration: none;
     border: none;
     box-shadow: 5px 5px 5px black;
+    
+}
+.right_btn{
+    border-radius: 20px;
 }

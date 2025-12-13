@@ -1,8 +1,17 @@
-.Main {
+.Home_Main{
     height: 100vh;
-    width: 100vw;
+    
+    
     background-image: url('https://wallpaperbat.com/img/9723449-villa-wallpaper-free-villa.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.Hero_Section{
+    height: 500px;
+    border: 1px solid blue;
+}
+.Home_bottom{
+    height:50px;
+    
 }

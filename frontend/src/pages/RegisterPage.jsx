@@ -42,7 +42,7 @@ const RegisterPage = () => {
   return (
     <div className='Lmain'>
       <div className='Lcenter'>
-        <Link to='/'><img src='https://static.thenounproject.com/png/251451-200.png' className='backbtn'/></Link>
+        <Link to='/'><img src='https://static.thenounproject.com/png/251451-200.png' alt='' className='backbtn'/></Link>
         <h2>Register</h2>
         
           <form onSubmit={handleSubmit}>

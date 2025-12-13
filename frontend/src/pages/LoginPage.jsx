@@ -32,7 +32,7 @@ function LoginPage() {
   return (
     <div className='Lmain'>
       <div className='Lcenter'>
-        <Link to='/'><img src='https://static.thenounproject.com/png/251451-200.png' className='backbtn'/></Link>
+        <Link to='/'><img src='https://static.thenounproject.com/png/251451-200.png' className='backbtn' alt=''/></Link>
         <h2>Login</h2>
           <form onSubmit={handleSubmit}>
               <div className='Lcenter1'>

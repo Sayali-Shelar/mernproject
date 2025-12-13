@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import Navbar from '../components/Navbar'
 import '../css/HomePage.css'
+import Footer from '../components/Footer'
 
 
 const HomePage = () => {
@@ -15,15 +16,23 @@ const HomePage = () => {
         
     },[])
   return (
-    <div className='Main'>
-      
+    <div >
       <Navbar/>
-
+      <div className='Home_Main'>
+      <p>{massage}</p>
+      </div>
+      <div className='Hero_Section'>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, facere.
+      </div>
+      
+      
       
 
 
-      <p>{massage}</p>
-        
+      <div>
+        <Footer/>
+
+      </div>
     </div>
   )
 }

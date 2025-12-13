@@ -1,0 +1,33 @@
+.Footer{
+     background-color: rgb(5, 16, 46);
+
+}
+
+.footer_Main{
+
+     /* background-color: rgb(5, 16, 46); */
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+   margin-bottom: 70px;
+}
+.footer_bottom{
+    border-top: 1px solid white;
+    
+    
+    color: white;
+   
+    display: flex;
+    justify-content: center;
+}
+.footer_left{
+    flex: 3;
+    
+}
+
+.footer_center2 , .footer_center1,.footer_right{
+    flex: 1;
+     
+}
