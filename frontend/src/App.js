@@ -10,6 +10,8 @@ import { PrivateRoute } from './components/PrivateRoute';
 import AddCategory from './pages/AddCategory';
 import CategoryList from './pages/CategoryList';
 import AddProduct from './pages/AddProduct';
+import AdminLogin from './pages/AdminLogin';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -18,8 +20,10 @@ const App = () => {
         {/* <Navbar/> */}
         <Routes>
           <Route path='/' element={<HomePage/>}/>
+          <Route path='/contact' element={<Contact/>}/>
           <Route path='/register' element={<RegisterPage/>}/>
           <Route path='/login' element={<LoginPage/>}/>
+          <Route path='/admin_login' element={<AdminLogin/>}/>
           <Route path='/admin/dashboard' element={<PrivateRoute role='admin'><AdminDashboard/></PrivateRoute>}/>
           <Route path='/user/dashboard' element={<PrivateRoute role='user'><UserDashboard/></PrivateRoute>}/>
           <Route path="/admin/add-category" element={<AddCategory />} />

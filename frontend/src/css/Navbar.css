@@ -1,5 +1,5 @@
 .MainNav{
-    background-color:rgba(255, 255, 255, 0.334);
+    background-color:rgba(62, 199, 245, 0.34);
     box-shadow: 5px 5px 5px black;
     height: 70px;
     
@@ -33,7 +33,7 @@
 .btn{
     background-color: rgba(234, 223, 223, 0.352);
     /* padding: 15% 20%; */
-    padding: 15%;
+    padding: 10px;
     text-decoration: none;
     border: none;
     box-shadow: 5px 5px 5px black;

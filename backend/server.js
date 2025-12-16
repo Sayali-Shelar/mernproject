@@ -27,9 +27,9 @@ app.use('/uploads', express.static('uploads'));
 
 
 
-app.get("/",(req,res)=>{
-    res.send("Hello");
-})
+// app.get("/",(req,res)=>{
+//     res.send("Hello");
+// })
 
 
 

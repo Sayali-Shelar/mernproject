@@ -19,10 +19,11 @@ const HomePage = () => {
     <div >
       <Navbar/>
       <div className='Home_Main'>
-      <p>{massage}</p>
+      {/* <p>{massage}</p> */}
+      <h1>find your dream home</h1>
       </div>
       <div className='Hero_Section'>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, facere.
+      
       </div>
       
       
