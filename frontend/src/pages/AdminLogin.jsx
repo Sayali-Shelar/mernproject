@@ -43,8 +43,7 @@ function AdminLogin() {
                 <p className='mess'>{message}</p>
               </div>
           </form>
-      
-      </div>
+        </div>
     </div>
   );
 }
